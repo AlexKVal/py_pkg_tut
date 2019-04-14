@@ -20,4 +20,16 @@ Now install it (probably create a new [virtualenv](https://packaging.python.org/
 > pip install --index-url https://test.pypi.org/simple/ --no-deps example-pkg-your-username
 ```
 
+Check that it works
+```
+> python
+>>> from example_pkg import name, secret
+>>> name
+'example_pkg'
+>>> secret
+'blah blah'
+```
+
 Congratulations, you’ve packaged and distributed a Python project! ✨ 🍰 ✨
+
+The result can be seen here https://test.pypi.org/project/example-pkg-alexkval/
