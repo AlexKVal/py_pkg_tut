@@ -1,3 +1,4 @@
 build
 dist
 example_pkg_alexkval.egg-info
+*/__pycache__
